@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <title>Luman Rahman</title>
+</head>
+
+<body>
+    <div class="container">
+        <!--===== HEADER =====-->
+        <header class="l-header">
+            <nav class="nav bd-grid">
+                <div>
+                    <a href="/" class="nav_logo">Luman Rahman</a>
+                </div>
+
+                <div class="nav_menu" id="nav-menu">
+                    <ul class="nav_list">
+                        <li class="nav_item">
+                            <a href="/" class="nav_link active">Home</a>
+                        </li>
+                        <li class="nav_item">
+                            <a href="#signature" class="nav_link">Digital Signature</a>
+                        </li>
+                        <li class="nav_item">
+                            <a href="#gallery" class="nav_link">Gallery</a>
+                        </li>
+                        <li class="nav_item">
+                            <a href="#messenger" class="nav_link">Messenger</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="nav_toggle" id="nav-toggle">
+                    <i class="bx bx-menu">≡</i>
+                </div>
+            </nav>
+        </header>
+
+        <main class="l-main">
+            <!--===== HOME =====-->
+            <section class="home bd-grid" id="home">
+                <div class="home_data">
+                    <h1 class="home_title home_title-color">Hello World</h1>
+                    <code>#include &lt;stdio.h&gt; <br />
+            int main() <br />
+            { <br />
+            <div class="indent">
+              printf("hello world!\n"); <br />
+              return 0; <br />
+            </div>
+            } <br />
+          </code>
+                </div>
+
+                <div class="home_social"></div>
+
+                <div class="home_img">
+                    <img class="round" src="img/luman.jpg" alt="" />
+                </div>
+            </section>
+
+            <!--===== signature =====-->
+            <section class="signature section" id="signature">
+                <h2 class="section-title">Digital Signature</h2>
+
+                <div class="signature_container bd-grid">
+                    <div>
+                        <h2 class="signature_subtitle">Are you annonymous??</h2>
+                        <p class="signature_text">Let's see what do I know about you!</p>
+                        <div class="signature_data">
+                            <div class="signature_names">
+                                <span class="signature_name">IP Address : </span>
+                            </div>
+
+                            <div>
+                                <span class="signature_value ip">Detecting...</span>
+                            </div>
+                        </div>
+                        <div class="signature_data">
+                            <div class="signature_names">
+                                <span class="signature_name">ISP : </span>
+                            </div>
+
+                            <div>
+                                <span class="signature_value isp">Detecting...</span>
+                            </div>
+                        </div>
+                        <div class="signature_data">
+                            <div class="signature_names">
+                                <span class="signature_name">City : </span>
+                            </div>
+
+                            <div>
+                                <span class="signature_value city">Detecting...</span>
+                            </div>
+                        </div>
+                        <div class="signature_data">
+                            <div class="signature_names">
+                                <span class="signature_name">Country : </span>
+                            </div>
+
+                            <div>
+                                <span class="signature_value country">Detecting...</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div>
+                        <img src="img/laptop.jpg" alt="" class="signature_img" />
+                    </div>
+                </div>
+            </section>
+
+            <!--===== gallery =====-->
+            <section class="gallery section" id="gallery">
+                <h2 class="section-title">Gallery</h2>
+
+                <div class="gallery_container bd-grid">
+                    <div class="gallery_img">
+                        <img src="img/0.jpg" alt="" />
+                        <p>BSB ROOF</p>
+                        <p>02 AUG 2019</p>
+                    </div>
+                    <div class="gallery_img">
+                        <img src="img/1.jpg" alt="" />
+                        <p>DHAKA UNIVERSITY</p>
+                        <p>01 NOV 2019</p>
+                    </div>
+                    <div class="gallery_img">
+                        <img src="img/2.jpg" alt="" />
+                        <p>KEYBOARD</p>
+                        <p>12 NOV 2019</p>
+                    </div>
+                    <div class="gallery_img">
+                        <img src="img/3.jpg" alt="" />
+                        <p>PAHARPUR, NAOGAON</p>
+                        <p>07 NOV 2019</p>
+                    </div>
+                    <div class="gallery_img">
+                        <img src="img/4.jpg" alt="" />
+                        <p>HARDINGE BRIDGE</p>
+                        <p>30 JAN 2020</p>
+                    </div>
+                    <div class="gallery_img">
+                        <img src="img/5.jpg" alt="" />
+                        <p>PADMA, RAJSHAHI</p>
+                        <p>04 MAR 2020</p>
+                    </div>
+                    <div class="gallery_img">
+                        <img src="img/6.jpg" alt="" />
+                        <p>COXS BAZAR</p>
+                        <p>09 MAR 2020</p>
+                    </div>
+                    <div class="gallery_img">
+                        <img src="img/7.jpg" alt="" />
+                        <p>BANDARBAN</p>
+                        <p>11 MAR 2020</p>
+                    </div>
+                    <div class="gallery_img">
+                        <img src="img/8.jpg" alt="" />
+                        <p>TETULIA, PANCHAGARH</p>
+                        <p>19 JUN 2020</p>
+                    </div>
+                </div>
+            </section>
+
+            <!--===== messenger =====-->
+            <section class="messenger section" id="messenger">
+                <h2 class="section-title">Messenger</h2>
+
+                <div class="messenger_container bd-grid">
+                    <form action="https://luman.herokuapp.com/messenger" class="messenger_form" method="POST">
+                        <input name="name" type="text" placeholder="Name" class="messenger_input" />
+                        <input name="email" type="mail" placeholder="Email" class="messenger_input" />
+                        <textarea name="msg" placeholder="Message" id="" cols="0" rows="10" class="messenger_input"
+                            required></textarea>
+                        <input type="submit" value="Send" class="messenger_button button" />
+                    </form>
+                </div>
+            </section>
+        </main>
+
+        <!--===== FOOTER =====-->
+        <footer class="footer">
+            <p>the noob project...</p>
+        </footer>
+    </div>
+    <script src="js/app.js"></script>
+</body>
+
+</html>
