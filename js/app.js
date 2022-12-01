@@ -30,7 +30,7 @@ let country = document.querySelector(".country");
 
 window.addEventListener("load", async () => {
     try {
-        let data = await fetch("https://luman.herokuapp.com/whoami");
+        let data = await fetch("https://flyluman.onrender.com/whoami");
         if (data.ok) {
             data = await data.json();
             ip.innerHTML = data.ip;
