@@ -30,7 +30,7 @@ let country = document.querySelector(".country");
 
 window.addEventListener("load", async () => {
     try {
-        let data = await fetch("https://flyluman.com/whoami");
+        let data = await fetch("https://34.148.75.49/whoami");
         if (data.ok) {
             data = await data.json();
             ip.innerHTML = data.ip;
