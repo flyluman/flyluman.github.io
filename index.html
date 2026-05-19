@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <title>Luman Rahman</title>
+    <script>(function(){var t=localStorage.getItem("theme");if(!t){t=window.matchMedia("(prefers-color-scheme:dark)").matches?"dark":"light"}document.documentElement.setAttribute("data-theme",t)})();</script>
+</head>
+
+<body>
+    <div class="container">
+        <header class="l-header">
+            <nav class="nav bd-grid">
+                <div>
+                    <a href="/" class="nav_logo">Luman Rahman</a>
+                </div>
+
+                <div class="nav_menu" id="nav-menu">
+                    <ul class="nav_list">
+                        <li class="nav_item">
+                            <a href="/" class="nav_link active">Home</a>
+                        </li>
+                        <li class="nav_item">
+                            <a href="#signature" class="nav_link">Digital Signature</a>
+                        </li>
+                        <li class="nav_item">
+                            <a href="#gallery" class="nav_link">Gallery</a>
+                        </li>
+                        <li class="nav_item">
+                            <a href="#messenger" class="nav_link">Messenger</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="nav_right">
+                    <button class="theme-toggle" id="theme-toggle" type="button" aria-label="Toggle theme">
+                        <svg class="theme-icon theme-icon--moon" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                        </svg>
+                        <svg class="theme-icon theme-icon--sun" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <circle cx="12" cy="12" r="5"></circle>
+                            <line x1="12" y1="1" x2="12" y2="3"></line>
+                            <line x1="12" y1="21" x2="12" y2="23"></line>
+                            <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                            <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                            <line x1="1" y1="12" x2="3" y2="12"></line>
+                            <line x1="21" y1="12" x2="23" y2="12"></line>
+                            <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                            <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                        </svg>
+                    </button>
+                    <div class="nav_toggle" id="nav-toggle" aria-label="Toggle menu">
+                        <span></span>
+                    </div>
+                </div>
+            </nav>
+        </header>
+
+        <main class="l-main">
+            <section class="home bd-grid" id="home">
+                <div class="home_data">
+                    <h1 class="home_title">
+                        <span class="home_title-color" id="typing-text"></span>
+                        <span class="typing-cursor" id="typing-cursor">|</span>
+                    </h1>
+
+                    <div class="terminal">
+                        <div class="terminal-bar">
+                            <span class="terminal-title">hello.c</span>
+                        </div>
+                        <pre class="terminal-body"><code id="terminal-code"></code></pre>
+                        <div class="terminal-output" id="terminal-output"></div>
+                    </div>
+                </div>
+
+                <div class="home_img">
+                    <img class="round" src="img/luman.jpg" alt="Luman Rahman profile photo" />
+                </div>
+            </section>
+
+            <section class="signature section" id="signature">
+                <h2 class="section-title reveal">Digital Signature</h2>
+
+                <div class="signature_container bd-grid">
+                    <div>
+                        <h2 class="signature_subtitle">Are you anonymous??</h2>
+                        <p class="signature_text">Let's see what do I know about you!</p>
+                        <div class="signature_data reveal">
+                            <div class="signature_names">
+                                <span class="signature_name">IP Address : </span>
+                            </div>
+                            <div>
+                                <span class="signature_value ip">Detecting...</span>
+                            </div>
+                        </div>
+                        <div class="signature_data reveal">
+                            <div class="signature_names">
+                                <span class="signature_name">ISP : </span>
+                            </div>
+                            <div>
+                                <span class="signature_value isp">Detecting...</span>
+                            </div>
+                        </div>
+                        <div class="signature_data reveal">
+                            <div class="signature_names">
+                                <span class="signature_name">City : </span>
+                            </div>
+                            <div>
+                                <span class="signature_value city">Detecting...</span>
+                            </div>
+                        </div>
+                        <div class="signature_data reveal">
+                            <div class="signature_names">
+                                <span class="signature_name">Country : </span>
+                            </div>
+                            <div>
+                                <span class="signature_value country">Detecting...</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div>
+                        <img src="img/laptop.jpg" alt="Laptop on desk" class="signature_img" />
+                    </div>
+                </div>
+            </section>
+
+            <section class="gallery section" id="gallery">
+                <h2 class="section-title reveal">Gallery</h2>
+
+                <div class="gallery_container bd-grid">
+                    <div class="gallery_img reveal">
+                        <img src="img/0.jpg" alt="BSB ROOF" loading="lazy" />
+                        <p>BSB ROOF</p>
+                        <p>02 AUG 2019</p>
+                    </div>
+                    <div class="gallery_img reveal">
+                        <img src="img/1.jpg" alt="DHAKA UNIVERSITY" loading="lazy" />
+                        <p>DHAKA UNIVERSITY</p>
+                        <p>01 NOV 2019</p>
+                    </div>
+                    <div class="gallery_img reveal">
+                        <img src="img/2.jpg" alt="KEYBOARD" loading="lazy" />
+                        <p>KEYBOARD</p>
+                        <p>12 NOV 2019</p>
+                    </div>
+                    <div class="gallery_img reveal">
+                        <img src="img/3.jpg" alt="PAHARPUR, NAOGAON" loading="lazy" />
+                        <p>PAHARPUR, NAOGAON</p>
+                        <p>07 NOV 2019</p>
+                    </div>
+                    <div class="gallery_img reveal">
+                        <img src="img/4.jpg" alt="HARDINGE BRIDGE" loading="lazy" />
+                        <p>HARDINGE BRIDGE</p>
+                        <p>30 JAN 2020</p>
+                    </div>
+                    <div class="gallery_img reveal">
+                        <img src="img/5.jpg" alt="PADMA, RAJSHAHI" loading="lazy" />
+                        <p>PADMA, RAJSHAHI</p>
+                        <p>04 MAR 2020</p>
+                    </div>
+                    <div class="gallery_img reveal">
+                        <img src="img/6.jpg" alt="COXS BAZAR" loading="lazy" />
+                        <p>COXS BAZAR</p>
+                        <p>09 MAR 2020</p>
+                    </div>
+                    <div class="gallery_img reveal">
+                        <img src="img/7.jpg" alt="BANDARBAN" loading="lazy" />
+                        <p>BANDARBAN</p>
+                        <p>11 MAR 2020</p>
+                    </div>
+                    <div class="gallery_img reveal">
+                        <img src="img/8.jpg" alt="TETULIA, PANCHAGARH" loading="lazy" />
+                        <p>TETULIA, PANCHAGARH</p>
+                        <p>19 JUN 2020</p>
+                    </div>
+                </div>
+            </section>
+
+            <section class="messenger section" id="messenger">
+                <h2 class="section-title reveal">Messenger</h2>
+
+                <div class="messenger_container bd-grid">
+                    <form action="https://luman.mooo.com/messenger" class="messenger_form reveal" method="POST">
+                        <div class="messenger_row">
+                            <input name="name" type="text" placeholder="Name" class="messenger_input" autocomplete="name" />
+                            <input name="email" type="email" placeholder="Email" class="messenger_input" autocomplete="email" />
+                        </div>
+                        <textarea name="msg" placeholder="Message" cols="0" rows="6" class="messenger_input" required></textarea>
+                        <input type="submit" value="Send Message" class="messenger_button button" />
+                    </form>
+                </div>
+            </section>
+        </main>
+
+        <footer class="footer">
+            <p>Copyright @<span id="year"></span> The Noob Project</p>
+        </footer>
+    </div>
+
+    <div class="particles" id="particles"></div>
+
+    <div class="lightbox" id="lightbox">
+        <button class="lightbox-close" id="lightbox-close" type="button" aria-label="Close">
+            <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <line x1="18" y1="6" x2="6" y2="18"></line>
+                <line x1="6" y1="6" x2="18" y2="18"></line>
+            </svg>
+        </button>
+        <button class="lightbox-nav lightbox-prev" id="lightbox-prev" type="button" aria-label="Previous image">
+            <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <polyline points="15 18 9 12 15 6"></polyline>
+            </svg>
+        </button>
+        <div class="lightbox-img-wrap">
+            <img src="" alt="" id="lightbox-img" />
+        </div>
+        <button class="lightbox-nav lightbox-next" id="lightbox-next" type="button" aria-label="Next image">
+            <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <polyline points="9 18 15 12 9 6"></polyline>
+            </svg>
+        </button>
+        <p class="lightbox-caption" id="lightbox-caption"></p>
+    </div>
+
+    <div class="toast" id="toast"></div>
+
+    <script src="js/app.js"></script>
+</body>
+
+</html>
