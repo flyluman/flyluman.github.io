@@ -251,7 +251,7 @@ const countryEl = document.querySelector(".country");
 
 window.addEventListener("load", async () => {
     try {
-        let data = await fetch("https://luman.mooo.com/whoami");
+        let data = await fetch("https://luman.mooo.com/api/v1/whoami");
         if (data.ok) {
             data = await data.json();
             ipEl.innerHTML = data.ip;
